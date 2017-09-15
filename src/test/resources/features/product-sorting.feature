@@ -1,4 +1,7 @@
 Feature: Products sorting
+  As a customer
+  I want to sort products
+  So that I can easily find what I need
 
   Scenario Outline: Sort products
     Given I open the homepage
