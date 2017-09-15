@@ -3,7 +3,7 @@ Feature: Products sorting
   I want to sort products
   So that I can easily find what I need
 
-  Scenario Outline: Sort products
+  Scenario Outline: Product sorting
     Given I open the homepage
     And I search products by "<keyword>"
     When I select the option "<sort criteria>" in the Sort By list
